@@ -29,7 +29,7 @@ sudo dpkg -i *.deb
 ![image](https://user-images.githubusercontent.com/73093214/236188657-c8d72a0c-2626-4a9b-af56-a865f10c5bb2.png)
 ![image](https://user-images.githubusercontent.com/73093214/236194104-b56de9cd-39f1-4384-9a59-2a35b188e302.png)
 
-target_link加上openvino,并将三个路径更换为自己电脑对应的路径(前面一张图是我笔记本的位置，后一张是我测试的nuc的位置)
+将三个路径更换为自己电脑对应的路径(前面一张图是我笔记本的位置，后一张是我测试的nuc的位置)
 
 #### 使用须知
 推理文件基于1\*64\*64\*1(NWHC)的数字识别网络所写，其它的网络比如四点模型需要自行更换input_shape、和最后的结果获取等内容
