@@ -1,0 +1,3 @@
+/home/liu/CLionProjects/openvino_test/cmake-build-release/CMakeFiles/openvino_test.dir
+/home/liu/CLionProjects/openvino_test/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/liu/CLionProjects/openvino_test/cmake-build-release/CMakeFiles/rebuild_cache.dir

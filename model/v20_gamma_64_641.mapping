@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_7" output_port_id="input_7" />
+		<IR name="input_7" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="new_shape__124" output_port_id="new_shape__124" />
+		<IR name="new_shape__124" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/batch_normalization/FusedBatchNormV3__67" output_port_id="model_6/batch_normalization/FusedBatchNormV3__67:0" />
+		<IR name="model_6/batch_normalization/FusedBatchNormV3__67" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/batch_normalization/FusedBatchNormV3" output_port_id="model_6/batch_normalization/FusedBatchNormV3:0" />
+		<IR name="model_6/batch_normalization/FusedBatchNormV3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_3/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_3/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_3/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_3/BiasAdd" output_port_id="model_6/conv2d_3/BiasAdd:0" />
+		<IR name="model_6/conv2d_3/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_3/Relu" output_port_id="model_6/conv2d_3/Relu:0" />
+		<IR name="model_6/conv2d_3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_4/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_4/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_4/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_4/BiasAdd" output_port_id="model_6/conv2d_4/BiasAdd:0" />
+		<IR name="model_6/conv2d_4/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_4/Relu" output_port_id="model_6/conv2d_4/Relu:0" />
+		<IR name="model_6/conv2d_4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/max_pooling2d_2/MaxPool" output_port_id="model_6/max_pooling2d_2/MaxPool:0" />
+		<IR name="model_6/max_pooling2d_2/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_5/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_5/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_5/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_5/BiasAdd" output_port_id="model_6/conv2d_5/BiasAdd:0" />
+		<IR name="model_6/conv2d_5/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_5/Relu" output_port_id="model_6/conv2d_5/Relu:0" />
+		<IR name="model_6/conv2d_5/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_6/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_6/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_6/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_6/BiasAdd" output_port_id="model_6/conv2d_6/BiasAdd:0" />
+		<IR name="model_6/conv2d_6/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_6/Relu" output_port_id="model_6/conv2d_6/Relu:0" />
+		<IR name="model_6/conv2d_6/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/max_pooling2d_3/MaxPool" output_port_id="model_6/max_pooling2d_3/MaxPool:0" />
+		<IR name="model_6/max_pooling2d_3/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_7/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_7/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_7/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_7/BiasAdd" output_port_id="model_6/conv2d_7/BiasAdd:0" />
+		<IR name="model_6/conv2d_7/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/re_lu/Relu" output_port_id="model_6/re_lu/Relu:0" />
+		<IR name="model_6/re_lu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/batch_normalization_1/FusedBatchNormV3" output_port_id="model_6/batch_normalization_1/FusedBatchNormV3:0" />
+		<IR name="model_6/batch_normalization_1/FusedBatchNormV3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_8/Conv2D/ReadVariableOp:0" output_port_id="model_6/conv2d_8/Conv2D/ReadVariableOp:0" />
+		<IR name="model_6/conv2d_8/Conv2D/ReadVariableOp:0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/conv2d_8/BiasAdd" output_port_id="model_6/conv2d_8/BiasAdd:0" />
+		<IR name="model_6/conv2d_8/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/add/add" output_port_id="model_6/add/add:0" />
+		<IR name="model_6/add/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/re_lu_1/Relu" output_port_id="model_6/re_lu_1/Relu:0" />
+		<IR name="model_6/re_lu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/batch_normalization_2/FusedBatchNormV3" output_port_id="model_6/batch_normalization_2/FusedBatchNormV3:0" />
+		<IR name="model_6/batch_normalization_2/FusedBatchNormV3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/max_pooling2d_4/MaxPool" output_port_id="model_6/max_pooling2d_4/MaxPool:0" />
+		<IR name="model_6/max_pooling2d_4/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/max_pooling2d_4/MaxPool__113" output_port_id="model_6/max_pooling2d_4/MaxPool__113:0" />
+		<IR name="model_6/max_pooling2d_4/MaxPool__113" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="const_fold_opt__125" output_port_id="const_fold_opt__125" />
+		<IR name="const_fold_opt__125" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model_6/flatten_1/Reshape" output_port_id="model_6/flatten_1/Reshape:0" />
+		<IR name="model_6/flatten_1/Reshape" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/dense_2/MatMul" output_port_id="model_6/dense_2/MatMul:0" />
+		<IR name="model_6/dense_2/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/dense_2/BiasAdd" output_port_id="model_6/dense_2/BiasAdd:0" />
+		<IR name="model_6/dense_2/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/dense_2/Relu" output_port_id="model_6/dense_2/Relu:0" />
+		<IR name="model_6/dense_2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model_6/dense_3/MatMul" output_port_id="model_6/dense_3/MatMul:0" />
+		<IR name="model_6/dense_3/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model_6/dense_3/BiasAdd" output_port_id="model_6/dense_3/BiasAdd:0" />
+		<IR name="model_6/dense_3/BiasAdd" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_3" output_port_id="dense_3" />
+		<IR name="dense_3" output_port_id="1" />
+	</map>
+</mapping>
