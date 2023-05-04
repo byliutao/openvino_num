@@ -70,9 +70,14 @@ public:
         float *detections = output_tensor.data<float>();
 
         // Step 8. get result
+        int res = 0;
         for(int i = 0; i < 10; i++){
-            std::cout<<detections[i]<<endl;
+//            std::cout<<detections[i]<<endl;
+            if(detections[i] == 1){
+                res = i;
+            }
         }
+        cout<<"num: "<<res<<endl;
     }
     ~OpenvinoInfer(){
 //        delete ppp;
